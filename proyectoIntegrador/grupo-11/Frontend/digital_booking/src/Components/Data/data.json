@@ -1,0 +1,93 @@
+
+[
+    {
+        "id": "1",
+        "producto": {
+            "img": "https://images.pexels.com/photos/2127037/pexels-photo-2127037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "category": "Deportivos",
+            "title": "Mini cooper JCW",
+            "location": "Buenos Aires",
+            "price" : "1000",
+            "description": "Modelo 2022, con la mejor tecnologia y el mejor diseño. El mejor auto para vos."
+        }
+    },
+    {
+        "id": "2",
+        "producto": {
+            "img": "https://images.pexels.com/photos/1005617/pexels-photo-1005617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "category": "Deportivos",
+            "title": "Lamborghini Urus",
+            "location": "Buenos Aires",
+            "price" : "1000",
+            "description": "Modelo 2021, potencia y diseño. Una combinación perfecta."
+        }
+    },
+    {
+        "id": "3",
+        "producto": {
+            "img": "https://images.pexels.com/photos/951318/pexels-photo-951318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "category": "Premium",
+            "title": "BMW serie 8",
+            "location": "San Carlos de Bariloche",
+            "price" : "1000",
+            "description": "Modelo 2023, elegancia y confort. El auto ideal para vos."
+        }
+    },
+    {
+        "id": "4",
+        "producto": {
+            "img": "https://images.pexels.com/photos/7787701/pexels-photo-7787701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "category": "Premium",
+            "title": "Mercedes Benz Cla",
+            "location": "San Carlos de Bariloche",
+            "price" : "1000",
+            "description": "Modelo 2020, Una combinación perfecta de diseño y confort."
+        }
+    },
+    {
+        "id": "5",
+        "producto": {
+            "img": "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "category": "Camionetas",
+            "title": "Range Rover Evoque",
+            "location": "Mendoza",
+            "price" : "1000",
+            "description": "Modelo 2019, una camioneta con la que podras presumir en cualquier lugar."
+        }
+    },
+    {
+        "id": "6",
+        "producto": {
+            "img": "https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "category": "Camionetas",
+            "title": "Mitshubishi Outlander",
+            "location": "Mendoza",
+            "price" : "1000",
+            "description": "Modelo 2018, una camioneta con la que podras disfrutar de la naturaleza."
+        }
+    },
+    {
+        "id": "7",
+        "producto": {
+            "img": "https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "category": "Blindados",
+            "title": "Mercedes Benz G63",
+            "location": "cordoba",
+            "price" : "1000",
+            "description": "Modelo 2022, blindado con la mejor tecnologia y el mejor diseño. Sin duda una suv para vos."
+        }
+    },
+    {
+        "id": "8",
+        "producto": {
+            "img": "https://images.pexels.com/photos/951319/pexels-photo-951319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "category": "Blindados",
+            "title": "BMW X5",
+            "location": "cordoba",
+            "price" : "1000",
+            "description": "Modelo 2021, nuestra berlina blindada premium. Un auto seguro para vos."
+        }
+    }
+
+    
+]

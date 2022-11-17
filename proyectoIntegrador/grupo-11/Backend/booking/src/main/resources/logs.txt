@@ -1,0 +1,19 @@
+INFO    2022-11-03 09:01:03,671 [restartedMain] com.api.booking.domain.service.impl.CategoriaServiceImpl  - INSERTANDO CATEGORIAS
+INFO    2022-11-03 09:01:50,350 [restartedMain] com.api.booking.domain.service.impl.CategoriaServiceImpl  - INSERTANDO CATEGORIAS
+INFO    2022-11-03 21:12:45,675 [restartedMain] com.api.booking.domain.service.impl.CategoriaServiceImpl  - INSERTANDO CATEGORIAS
+INFO    2022-11-03 22:24:48,134 [restartedMain] com.api.booking.domain.service.impl.CategoriaServiceImpl  - INSERTANDO CATEGORIAS
+INFO    2022-11-04 11:13:25,516 [restartedMain] com.api.booking.domain.service.impl.CategoriaServiceImpl  - INSERTANDO CATEGORIAS
+INFO    2022-11-04 11:14:28,095 [restartedMain] com.api.booking.domain.service.impl.CategoriaServiceImpl  - INSERTANDO CATEGORIAS
+INFO    2022-11-04 11:14:38,995 [http-nio-8090-exec-2] com.api.booking.domain.service.impl.CategoriaServiceImpl  - GUARDANDO CATEGORIA METODO - createCategoria
+INFO    2022-11-04 11:14:49,389 [http-nio-8090-exec-3] com.api.booking.domain.service.impl.CategoriaServiceImpl  - LISTANDO TODAS LAS CATEGORIAS METODO - readAllCategoria
+INFO    2022-11-04 11:14:50,289 [http-nio-8090-exec-3] com.api.booking.domain.service.impl.CategoriaServiceImpl  - LISTA DE CATEGORIAS
+INFO    2022-11-04 11:14:55,580 [http-nio-8090-exec-4] com.api.booking.domain.service.impl.CategoriaServiceImpl  - ELIMINANDO CATEGORIA METODO - deleteCategoriaById
+INFO    2022-11-04 11:15:13,188 [http-nio-8090-exec-5] com.api.booking.domain.service.impl.CategoriaServiceImpl  - LISTANDO TODAS LAS CATEGORIAS METODO - readAllCategoria
+INFO    2022-11-04 11:15:14,112 [http-nio-8090-exec-5] com.api.booking.domain.service.impl.CategoriaServiceImpl  - LISTA DE CATEGORIAS
+INFO    2022-11-04 11:15:50,098 [restartedMain] com.api.booking.domain.service.impl.CategoriaServiceImpl  - INSERTANDO CATEGORIAS
+INFO    2022-11-04 11:16:03,250 [http-nio-8090-exec-2] com.api.booking.domain.service.impl.CategoriaServiceImpl  - GUARDANDO CATEGORIA METODO - createCategoria
+INFO    2022-11-04 11:16:07,072 [http-nio-8090-exec-3] com.api.booking.domain.service.impl.CategoriaServiceImpl  - LISTANDO TODAS LAS CATEGORIAS METODO - readAllCategoria
+INFO    2022-11-04 11:16:08,110 [http-nio-8090-exec-3] com.api.booking.domain.service.impl.CategoriaServiceImpl  - LISTA DE CATEGORIAS
+INFO    2022-11-04 11:16:12,526 [http-nio-8090-exec-4] com.api.booking.domain.service.impl.CategoriaServiceImpl  - ELIMINANDO CATEGORIA METODO - deleteCategoriaById
+INFO    2022-11-04 11:16:31,533 [http-nio-8090-exec-5] com.api.booking.domain.service.impl.CategoriaServiceImpl  - LISTANDO TODAS LAS CATEGORIAS METODO - readAllCategoria
+INFO    2022-11-04 11:16:32,500 [http-nio-8090-exec-5] com.api.booking.domain.service.impl.CategoriaServiceImpl  - LISTA DE CATEGORIAS

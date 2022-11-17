@@ -1,0 +1,272 @@
+.booking-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  background-color: #607D8B;
+  position: sticky;
+  top: 100px;
+  z-index: 3;
+}
+
+.booking-search__title {
+  color: #fff;
+  margin-bottom: 1rem;
+  /* font-family: "Roboto", sans-serif;
+  font-weight: 700; */
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 1rem;
+}
+
+.booking-search__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.booking-search__form__city {
+ background-color: #fff;
+ width: 300px;
+ height: 50px;
+ padding: 1rem;
+ border: 1px solid black;
+ outline: none;
+ border-radius: 0.5rem;
+ font-size: 1rem;
+ color: #263238;
+ margin-left: 1rem;
+ cursor: pointer;
+}
+
+.booking-search__form--input   {
+  background-color: #fff;
+  width: 370px;
+  height: 50px;
+  padding: 1rem;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #263238;
+  margin-left: 1rem;
+  cursor: pointer;
+  
+}
+
+
+.booking-search__form--select--text {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  padding: 0.7rem;
+  outline: none;
+  font-size: 16px;
+  color: #607D8B;
+  cursor: pointer;
+  margin-left: -10rem;
+  margin-top: -10px;
+  
+
+}
+
+.booking-search__form--select--city--list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 280px;
+  height: 50px;
+  outline: none;
+  font-size: 16px;
+  color: #263238;
+  cursor: pointer;
+  border-bottom: 1px solid #FBC02D;
+  padding: 10px 50px; 
+  margin-left: 0.5rem;
+  margin-top: 10px;
+}
+
+.booking-search__form--select--city--list--text {
+  color: #263238;
+  font-size: 16px;
+  cursor: pointer;  
+  margin-left: -1rem;
+  z-index: 3;
+}
+
+
+.booking-search__form--select--city--list--text--country {
+  color: #607D8B;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.booking-search__form--select--city {
+  background-color: #fff;
+  position: absolute;
+  width: 300px;
+  height: 270px;
+  outline: none;
+  font-size: 16px;
+  color: #607D8B;
+  cursor: pointer;
+  margin-left: -39rem;
+  margin-top: 342px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  z-index: 3;
+}
+
+.booking-search__form--select--city::before {
+  content: "";
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  margin-left: -69px;
+  margin-top: -10px;
+}
+
+
+.booking-search__form--date {
+  position: absolute;
+  width: 350px;
+  height: 50px;
+  padding: 0.7rem;
+  outline: none;
+  font-size: 16px;
+  color: #607D8B;
+  cursor: pointer;
+  margin-left: -11rem;
+  margin-top: -10px;
+  
+  
+}
+
+.booking-icon {
+  color: #607D8B;
+  position: absolute;
+  margin-left: -8.5em;
+  top: 95px;
+  width: 1.5rem;
+  height: 1.5rem;
+
+}
+
+.booking-icon__date {
+  color: #607D8B;
+  position: absolute;
+  margin-left: -11em;
+  margin-top: -3px;
+  width: 1.5rem;
+  height: 1.5rem;
+  
+}
+
+.fa-car-building {
+  color: #607D8B;
+  position: absolute;
+  margin-left: -11em;
+  margin-top: -3px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.booking-search__button {
+    width: 206px;
+    height: 40px;
+    background-color:  #FBC02D;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+.booking-search__button:hover {
+  background-color: #FFFBE2;
+  font-size: 1.2rem;
+  transition: 0.5s;
+  color: #607D8B;
+}
+
+.booking-search__button-calendar  {
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  background-color:  #FBC02D;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 15rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  margin-top: 53rem;
+}
+
+.booking-search__button-calendar:hover {
+  background-color: #FFFBE2;
+  font-size: 17px;
+  transition: 0.5s;
+  color: #607D8B;
+  border: 1px solid #607D8B;
+}
+
+.booking-search__form--input--calendar {
+  position: absolute;
+  top: 9rem;
+  margin-left: 6rem;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  height: 420px;
+  
+}
+
+.booking-search__form--input--calendar::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  transform: rotate(180deg);
+  position: absolute;
+  top: -10px;
+
+}
+
+
+
+/* estilos para el calendario accediendo a las clases del paquete react-range */
+.rdrSelected, .rdrInRange, .rdrStartEdge, .rdrEndEdge {
+  border-radius: 25px;
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+  margin-top: -2px;
+  
+}
+
+
+
+
+
+
+
+
+

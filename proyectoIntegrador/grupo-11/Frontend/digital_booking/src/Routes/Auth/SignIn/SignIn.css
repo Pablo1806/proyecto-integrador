@@ -1,0 +1,178 @@
+.Header-signin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fffbe2;
+  height: 100px;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.Header-signin img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.Header-signin div {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.Header__button-signin {
+  background-color: #ffffff;
+  border: 1px solid #fbc02d;
+  border-radius: 0.5rem;
+  color: #fbc02d;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  width: 206px;
+  height: 40px;
+  margin-left: 11rem;
+}
+
+.Header__button-signin:hover {
+  background-color: #fffbe2;
+  color: #263238;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+/* --------------------------------Signin-------------------------------- */
+
+.container-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.container__title-signup {
+  font-size: 1.5rem;
+  color: #263238;
+
+}
+
+
+
+.formulario__label {
+display: flex;
+color: #263238; 
+}
+
+
+input {
+  position: relative;
+  padding: 7px;
+  margin: 10px 0px;
+  outline: none;
+  width: 240px;
+}
+
+
+
+.button-signup {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #fbc02d;
+  cursor: pointer;
+  color: #fff;
+  font-family: "roboto", sans-serif;
+
+  font-weight: bold;
+  transition: 0.5s;
+  border: none;
+  margin-top: 2rem;
+}
+
+.button-signup:hover {
+  background-position: right;
+  border: solid 2px #252525;
+  background-color: #fffbe2;
+  color: #252525;
+  transition: 0.5s;
+}
+
+.container__form-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-top: 2rem;
+  font-size: 12px;
+}
+
+.container__form-register a {
+  color: blue;
+  cursor: pointer;
+
+}
+
+.container__form-register a:hover {
+  color: #fbc02d;
+}
+
+.link {
+  color: #252525;
+  cursor: pointer;
+  text-decoration: none;
+} 
+
+.formulario__input-error {
+  color: red;
+  font-size: 0.8rem;
+  display: none;
+  width: 250px;
+  margin: 0 auto;
+  /* margin-top: 0.5rem; */
+  /* margin-bottom: -1rem; */
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+input:invalid:focus ~ p {
+  display: block;
+}
+
+input:valid:focus {
+  border: 1px solid green;
+}
+input:invalid:focus {
+  border: 1px solid red;
+}
+
+input:valid[focused="true"] {
+  border: 1px solid green;
+}
+
+input:invalid[focused="true"] ~ .formulario__input-error {
+  display: block;
+}
+
+input:invalid[handleFocus="true"] .formulario__input-error {
+  display: block;
+}
